@@ -1,9 +1,9 @@
 <?php
-// Inclure l'autoloader de Composer si vous l'avez utilisé
+/* Inclure l'autoloader de Composer si vous l'avez utilisé
 require 'vendor/autoload.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 1. Récupérer et nettoyer les données
@@ -51,5 +51,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Méthode non autorisée.";
 }
-exit();
+exit();*/
 ?>
